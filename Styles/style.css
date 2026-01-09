@@ -183,3 +183,26 @@ main section p{
 .second-brain .message ul li{
     list-style: none;
 }
+
+/* Early Access Section  */
+main .early-access{
+    margin: 120px;
+    padding: 80px 40px;
+    background-color: rgba(247, 246, 242, 1);
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.early-access .subtitle{
+    font-size: 40px;
+    font-weight: 700px;
+    text-transform: capitalize;
+}
+.early-access button{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
