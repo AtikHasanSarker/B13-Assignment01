@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+body{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 120px;
+}
+header nav .menu-bar ul{
+    display: flex;
+    gap: 32px;
+}
+header nav .menu-bar ul li{
+    list-style: none;
+}
+header nav .menu-bar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.btn{
+    border: none;
+    border-radius: 4px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.green-btn{
+    background-color: rgba(70, 145, 101, 1);
+    color: white;
+}
+
+/* Hero Section */
+header .hero-banner{
+    background: url(../assets/hero-bg.png);
+    display: flex;
+    justify-content: center;
+    padding: 115px 120px 180px;
+}
+header .hero-banner .heading{
+    text-align: center;
+}
+header .hero-banner .heading .status-btn{
+    display: flex;
+    justify-content: center;
+}
+.hero-banner .access-btn{
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 6px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 1000px;
+    background-color: white;
+    color: rgba(70, 145, 101, 1);
+    margin-bottom: 16px;
+}
+.hero-banner .active-btn{
+    width: 16px;
+    height: 16px;
+}
+.hero-banner .heading h2{
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+}
+.hero-banner .heading .green-heading{
+    color: rgba(48, 184, 104, 1);
+    margin-bottom: 16px;
+}
+.hero-banner .heading .description{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.heading .function-button{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.heading .function-button .btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.heading .function-button .btn-icon{
+    width: 24px;
+    height: 24px;
+}
+
+
