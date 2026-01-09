@@ -206,3 +206,24 @@ main .early-access{
 .early-access button{
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
+
+/* Footer  */
+footer .footer-box{
+    padding: 80px 120px 40px;
+    background-color: #001931;
+}
+footer .footer-box .icon{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+footer .footer-box .icon .social-link{
+    color: white;
+}
+footer .footer-box .icon hr{
+    color: white;
+}
+.footer-box .copyright-section{
+    color: #FAFAFA;
+    text-align: center;
+}
