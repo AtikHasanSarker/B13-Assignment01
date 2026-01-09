@@ -27,6 +27,10 @@ header nav .menu-bar ul li a{
     color: #000;
     font-size: 16px;
 }
+header nav .menu-bar ul li a:hover{
+    color: rgb(212, 0, 202);
+    font-weight: 700;
+}
 
 /* All button selector  */
 .btn{
@@ -39,14 +43,17 @@ header nav .menu-bar ul li a{
 }
 .green-btn{
     background-color: rgba(70, 145, 101, 1);
+    display: flex;
+    gap: 6px;
 }
 .white-btn{
     background-color: transparent;
     border: 1px solid white;
 }
 .btn:hover{
-    background-color: #ffff00;
+    background-color: #F95555;
     color: #000;
+    cursor: pointer;
 }
 
 /* Hero Section */
@@ -74,6 +81,11 @@ header .hero-banner .heading .status-btn{
     background-color: white;
     color: rgba(70, 145, 101, 1);
     margin-bottom: 16px;
+}
+.hero-banner .access-btn:hover{
+    background-color: yellow;
+    cursor: pointer;
+    
 }
 .hero-banner .status-icon{
     width: 16px;
