@@ -123,7 +123,7 @@ header .hero-banner .heading .status-btn{
 
 /* Notes Section */
 main .notes{
-    margin: 80px 120px;
+    margin: 80px 120px 0;
     text-align: center;
     background-color: rgba(255, 255, 255, 1);
 }
@@ -174,7 +174,7 @@ main section p{
 
 /* Second Brain Section */
 .second-brain{
-    padding: 120px;
+    padding: 120px 120px 0;
     display: flex;
     gap: 60px;
     background-color: #fff;
