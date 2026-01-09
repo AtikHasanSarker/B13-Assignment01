@@ -27,16 +27,26 @@ header nav .menu-bar ul li a{
     color: #000;
     font-size: 16px;
 }
+
+/* All button selector  */
 .btn{
     border: none;
     border-radius: 4px;
     padding: 16px;
     font-size: 16px;
     font-weight: 600;
+    color: white;
 }
 .green-btn{
     background-color: rgba(70, 145, 101, 1);
-    color: white;
+}
+.white-btn{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.btn:hover{
+    background-color: #ffff00;
+    color: #000;
 }
 
 /* Hero Section */
@@ -65,7 +75,7 @@ header .hero-banner .heading .status-btn{
     color: rgba(70, 145, 101, 1);
     margin-bottom: 16px;
 }
-.hero-banner .active-btn{
+.hero-banner .status-icon{
     width: 16px;
     height: 16px;
 }
@@ -75,13 +85,12 @@ header .hero-banner .heading .status-btn{
     color: #fff;
 }
 .hero-banner .heading .green-heading{
+    display: block;
     color: rgba(48, 184, 104, 1);
     margin-bottom: 16px;
 }
 .hero-banner .heading .description{
     font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
     color: #fff;
     margin-bottom: 32px;
 }
@@ -200,7 +209,7 @@ main .early-access{
 }
 .early-access .subtitle{
     font-size: 40px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: capitalize;
 }
 .early-access button{
@@ -209,7 +218,7 @@ main .early-access{
 
 /* Footer  */
 footer .footer-box{
-    padding: 80px 120px 40px;
+    padding: 80px 120px 30px;
     background-color: #001931;
 }
 footer .footer-box .icon{
@@ -217,11 +226,17 @@ footer .footer-box .icon{
     justify-content: space-between;
     margin-bottom: 80px;
 }
-footer .footer-box .icon .social-link{
+footer .footer-box .icon .social-link p{
     color: white;
+    margin-bottom: 16px;
 }
-footer .footer-box .icon hr{
-    color: white;
+.footer-box .icon .social-link a{
+    margin-right: 16px;
+}
+footer hr{
+    border: none;
+    border-top: 1px solid #e5e7eb2e;
+    margin-bottom: 30px;
 }
 .footer-box .copyright-section{
     color: #FAFAFA;
